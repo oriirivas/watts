@@ -1,0 +1,42 @@
+// :host {
+//     margin: 2px;
+//     border: 1px solid pink;
+//     border-radius: 5px;
+//     display: inline;
+// }
+// img {
+//     max-width: 100%;
+// }
+
+.card {
+    min-width: 50px;
+    margin: 2%;
+    width: 15rem;
+    height: 30rem;
+    padding: 15px 10px;
+    align-items: center;
+}
+
+.btn-outline-danger {
+    color: #ff2a0b;
+    border-color: #ff2a0b; ;
+}
+
+.btn-outline-danger:hover {
+    color: white;
+    background-color: #ff2a0b;
+    border-color: #ff2a0b;
+}
+.title, .description, .price {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.card-footer {
+    border: none;
+    margin: -2%;    
+    background-color: transparent;
+}
