@@ -59,7 +59,7 @@ export class ProductsComponent implements OnInit {
       title: 'Conserva de Durazno',
       price: 790,
       description: '500gr',
-      type: 'Conserva'
+      type: 'conserva'
     },
     {
       id: '6',
@@ -67,7 +67,7 @@ export class ProductsComponent implements OnInit {
       title: 'Conserva de Frutilla',
       price: 1480,
       description: '410gr',
-      type: 'Conserva'
+      type: 'conserva'
     },
     {
       id: '7',
@@ -83,7 +83,7 @@ export class ProductsComponent implements OnInit {
       title: 'Aceite Girason Chef',
       price: 1600,
       description: '1lt',
-      type: 'Aceite'
+      type: 'aceite'
     },
     {
       id: '9',
