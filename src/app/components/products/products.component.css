@@ -57,3 +57,6 @@ span strong {
     font-size: 23px;
     text-transform: capitalize;
 }
+.colorNavbar {
+    background-color: bisque;
+}
