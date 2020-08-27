@@ -51,6 +51,8 @@ button:focus {
 }
 .category{
     padding: 1%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #ff2a0b;
 }
 span strong {
     color: #ff2a0b;
@@ -59,4 +61,8 @@ span strong {
 }
 .colorNavbar {
     background-color: bisque;
+}
+
+.fas {
+    padding: 0 5px;
 }
