@@ -6,3 +6,46 @@
 a {
     color: #ff2a0b;
 }
+
+li button {
+    color: #ff2a0b;
+    background: transparent;
+    border: none;
+}
+
+button:focus {
+    outline-color: #ff2a0b;
+}
+.positionCar{
+    display: flex;
+    justify-content: flex-end;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5%;
+    background-color: #ff2a0b;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    z-index: 3;
+}
+.fa-cart-plus{
+    color: #fff;
+    font-size: 150%
+}
+
+.circleNumber{
+    right: -20%;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 85%;
+    color: #ff2a0b;
+    border: 1px solid;
+    width: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}

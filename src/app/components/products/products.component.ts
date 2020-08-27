@@ -7,8 +7,9 @@ import { ProductModel } from './productsModel';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit {
-  public type = '';
+  public type = 'Todos';
   public productListFilter: ProductModel[];
+  public carNumber = 0
   constructor() { }
 
   productsList: ProductModel[] = [
@@ -296,20 +297,26 @@ export class ProductsComponent implements OnInit {
   ];
 
   ngOnInit(): void {
+    this.setType(this.type)
   }
 
   clickProduct(id: number) {
+    this.carNumber++;
     console.log('prodcuto numero' + ' ' + id);
   }
   setType(value: any) {
     this.productListFilter = [];
     this.type = value;
     console.log(value);
-    this.productsList.forEach(element => {
-      if ( element.type === value) {
-        this.productListFilter.push(element);
-      }
+    if(value === 'Todos'){
+      this.productListFilter = this.productsList;
+    } else {
+      this.productsList.forEach(element => {
+        if ( element.type === value) {
+          this.productListFilter.push(element);
+        }
+      });
       console.log(this.productListFilter);
-    });
-  }
+    }
+    }
 }
