@@ -1,9 +1,9 @@
 <div class="card col-12">
-    <h5 class="title">{{ productsTwo.title | uppercase | slice: 0:21}}</h5>
-    <img [src]="productsTwo.image"  class="card-img-top" alt="...">
+    <h5 class="title">{{ productsTwo.title | uppercase}}</h5>
+    <img [src]="productsTwo.image"  class="card-img-top imgCard" alt="...">
     <div class="card-body">
-        <strong class="pirce">{{productsTwo.price | currency}}</strong>
-        <p class="description">{{productsTwo.description | slice: 0:40}}</p>
+        <strong class="pirce">Precio: {{productsTwo.price | currency}}</strong>
+        <p class="description">Cantidad: {{productsTwo.description | slice: 0:40}}</p>
     </div>
     <div class="card-footer">
         <button (click)="addCart()" type="button" class="btn btn-outline-danger">Agregar al carrito</button>
