@@ -10,21 +10,24 @@
       <button class="nav-link active" (click)="setType($event.target.value) " value='Todos'>Todos</button>
     </li>
     <li class="nav-item">
-        <button class="nav-link"(click)="setType($event.target.value) " value='lacteos'>Lacteos</button>
+        <button class="nav-link"(click)="setType($event.target.value) " value='lácteos'>Lácteos</button>
     </li>
     <li class="nav-item">
-      <button class="nav-link"(click)="setType($event.target.value) " value='bebida'>Jugos</button>
+      <button class="nav-link"(click)="setType($event.target.value) " value='jugos'>Jugos</button>
     </li>
     <li class="nav-item">
-      <button class="nav-link"(click)="setType($event.target.value) " value='mermelada'>Mermeladas</button>
+      <button class="nav-link"(click)="setType($event.target.value) " value='mermeladas'>Mermeladas</button>
     </li>
     <li class="nav-item">
-      <button class="nav-link"(click)="setType($event.target.value) " value='conserva'>Conservas</button>
+      <button class="nav-link"(click)="setType($event.target.value) " value='conservas'>Conservas</button>
     </li>
     <li class="nav-item">
-         <button class="nav-link"(click)="setType($event.target.value) " value='aceite'>Aceites</button>
+         <button class="nav-link"(click)="setType($event.target.value) " value='aceites'>Aceites</button>
     </li>
   </ul>
+  <div class="category">
+    <span>Categoria: <strong>{{type}}</strong> {{productListFilter.length}} productos</span>
+  </div>
 <div class=" products-colum product-grid" >
     <app-product-card
         *ngFor="let product of productListFilter"

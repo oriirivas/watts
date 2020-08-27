@@ -27,12 +27,10 @@
     background-color: #ff2a0b;
     border-color: #ff2a0b;
 }
-.title, .description, .price {
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .title {
     text-align: center;
+    height: 48px;
 }
 
 .card-footer {
@@ -43,4 +41,6 @@
 
 .imgCard {
     padding: 20px 0px;
+    height: 225px;
+    min-height: 225px;
 }

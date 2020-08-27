@@ -49,3 +49,11 @@ button:focus {
     display: flex;
     justify-content: center;
 }
+.category{
+    padding: 1%;
+}
+span strong {
+    color: #ff2a0b;
+    font-size: 23px;
+    text-transform: capitalize;
+}

@@ -19,7 +19,7 @@ export class ProductsComponent implements OnInit {
       title: 'Nectar de Naranja',
       price: 1050,
       description: '1lt',
-      type: 'bebida'
+      type: 'jugos'
     },
     {
       id: '1',
@@ -27,7 +27,7 @@ export class ProductsComponent implements OnInit {
       title: 'Mermelada de Durazno',
       price: 820,
       description: '250gr',
-      type: 'mermelada'
+      type: 'mermeladas'
     },
     {
       id: '2',
@@ -35,7 +35,7 @@ export class ProductsComponent implements OnInit {
       title: 'Aceite Belmont',
       price: 2400,
       description: '1lt',
-      type: 'aceite'
+      type: 'aceites'
     },
     {
       id: '3',
@@ -43,7 +43,7 @@ export class ProductsComponent implements OnInit {
       title: 'Conserva de Carbonada',
       price: 1790,
       description: '380gr',
-      type: 'conserva'
+      type: 'conservas'
     },
     {
       id: '4',
@@ -51,7 +51,7 @@ export class ProductsComponent implements OnInit {
       title: 'Conserva de Choclo',
       price: 950,
       description: '380gr',
-      type: 'conserva'
+      type: 'conservas'
     },
     {
       id: '5',
@@ -59,7 +59,7 @@ export class ProductsComponent implements OnInit {
       title: 'Conserva de Durazno',
       price: 790,
       description: '500gr',
-      type: 'conserva'
+      type: 'conservas'
     },
     {
       id: '6',
@@ -67,7 +67,7 @@ export class ProductsComponent implements OnInit {
       title: 'Conserva de Frutilla',
       price: 1480,
       description: '410gr',
-      type: 'conserva'
+      type: 'conservas'
     },
     {
       id: '7',
@@ -75,7 +75,7 @@ export class ProductsComponent implements OnInit {
       title: 'Proteina FullPro',
       price: 1390,
       description: '330ml',
-      type: 'lacteos'
+      type: 'lácteos'
     },
     {
       id: '8',
@@ -83,7 +83,7 @@ export class ProductsComponent implements OnInit {
       title: 'Aceite Girason Chef',
       price: 1600,
       description: '1lt',
-      type: 'aceite'
+      type: 'aceites'
     },
     {
       id: '9',
@@ -91,7 +91,7 @@ export class ProductsComponent implements OnInit {
       title: 'Jugo de Arandano',
       price: 4000,
       description: '1lt',
-      type: 'bebida'
+      type: 'jugos'
     },
     {
       id: '10',
@@ -99,7 +99,7 @@ export class ProductsComponent implements OnInit {
       title: 'Jugo de Botella',
       price: 560,
       description: '300ml',
-      type: 'bebida'
+      type: 'jugos'
     },
     {
       id: '11',
@@ -107,7 +107,7 @@ export class ProductsComponent implements OnInit {
       title: 'Jugo de Frambuesa Selección',
       price: 3100,
       description: '1,75lt',
-      type: 'bebida'
+      type: 'jugos'
     },
     {
       id: '12',
@@ -115,7 +115,7 @@ export class ProductsComponent implements OnInit {
       title: 'Jugo de Naranja Light',
       price: 1050,
       description: '1lt',
-      type: 'bebida'
+      type: 'jugos'
     },
     {
       id: '13',
@@ -123,7 +123,7 @@ export class ProductsComponent implements OnInit {
       title: 'Jugo de Naranja Selección',
       price: 3350,
       description: '1,75lt',
-      type: 'bebida'
+      type: 'jugos'
     },
     {
       id: '14',
@@ -131,7 +131,7 @@ export class ProductsComponent implements OnInit {
       title: 'Leche de Almendra',
       price: 2600,
       description: '1lt',
-      type: 'lacteos'
+      type: 'lácteos'
     },
     {
       id: '15',
@@ -139,7 +139,7 @@ export class ProductsComponent implements OnInit {
       title: 'Leche Descremada',
       price: 15000,
       description: '1lt',
-      type: 'lacteos'
+      type: 'lácteos'
     },
     {
       id: '16',
@@ -147,7 +147,7 @@ export class ProductsComponent implements OnInit {
       title: 'Lentejas',
       price: 1050,
       description: '380gr',
-      type: 'conserva'
+      type: 'conservas'
     },
     {
       id: '17',
@@ -155,7 +155,7 @@ export class ProductsComponent implements OnInit {
       title: 'Aceite de maiz Chef',
       price: 3200,
       description: '1lt',
-      type: 'aceite'
+      type: 'aceites'
     },
     {
       id: '18',
@@ -163,7 +163,7 @@ export class ProductsComponent implements OnInit {
       title: 'Mantequilla Las Parcelas',
       price: 2200,
       description: '250gr',
-      type: 'lacteos'
+      type: 'lácteos'
     },
     {
       id: '19',
@@ -171,7 +171,7 @@ export class ProductsComponent implements OnInit {
       title: 'Mantequilla Loncoleche',
       price: 2130,
       description: '250gr',
-      type: 'lacteos'
+      type: 'lácteos'
     },
     {
       id: '20',
@@ -179,7 +179,7 @@ export class ProductsComponent implements OnInit {
       title: 'Margarina Sureña Mix',
       price: 2100,
       description: '500gr',
-      type: 'lacteos'
+      type: 'lácteos'
     },
     {
       id: '21',
@@ -187,7 +187,7 @@ export class ProductsComponent implements OnInit {
       title: 'Membrillo',
       price: 2100,
       description: '1kg',
-      type: 'mermelada'
+      type: 'mermeladas'
     },
     {
       id: '22',
@@ -195,7 +195,7 @@ export class ProductsComponent implements OnInit {
       title: 'Mermelada Doypack de Damasco',
       price: 1400,
       description: '400gr',
-      type: 'mermelada'
+      type: 'mermeladas'
     },
     {
       id: '23',
@@ -203,7 +203,7 @@ export class ProductsComponent implements OnInit {
       title: 'Mermelada Durazno',
       price: 820,
       description: '250gr',
-      type: 'mermelada'
+      type: 'mermeladas'
     },
     {
       id: '24',
@@ -211,7 +211,7 @@ export class ProductsComponent implements OnInit {
       title: 'Mermelada de Frutilla',
       price: 820,
       description: '250gr',
-      type: 'mermelada'
+      type: 'mermeladas'
     },
     {
       id: '25',
@@ -219,7 +219,7 @@ export class ProductsComponent implements OnInit {
       title: 'Mermelada de frutos del bosque',
       price: 820,
       description: '250gr',
-      type: 'mermelada'
+      type: 'mermeladas'
     },
     {
       id: '26',
@@ -227,7 +227,7 @@ export class ProductsComponent implements OnInit {
       title: 'Mermelada de Durazno Light',
       price: 1890,
       description: '350gr',
-      type: 'mermelada'
+      type: 'mermeladas'
     },
     {
       id: '27',
@@ -235,7 +235,7 @@ export class ProductsComponent implements OnInit {
       title: 'Mermelada de Berries Light',
       price: 1890,
       description: '350gr',
-      type: 'mermelada'
+      type: 'mermeladas'
     },
     {
       id: '28',
@@ -243,7 +243,7 @@ export class ProductsComponent implements OnInit {
       title: 'Mermelada de Alcayota Light',
       price: 990,
       description: '250gr',
-      type: 'mermelada'
+      type: 'mermeladas'
     },
     {
       id: '29',
@@ -251,7 +251,7 @@ export class ProductsComponent implements OnInit {
       title: 'Mermelada Damasco Sin Azucar',
       price: 1050,
       description: '200gr',
-      type: 'mermelada'
+      type: 'mermeladas'
     },
     {
       id: '30',
@@ -259,7 +259,7 @@ export class ProductsComponent implements OnInit {
       title: 'Aceite de Oliva Chef',
       price: 5690,
       description: '1lt',
-      type: 'aceite'
+      type: 'aceites'
     },
     {
       id: '31',
@@ -267,7 +267,7 @@ export class ProductsComponent implements OnInit {
       title: 'Porotos Granados',
       price: 1790,
       description: '380gr',
-      type: 'conserva'
+      type: 'conservas'
     },
     {
       id: '32',
@@ -275,7 +275,7 @@ export class ProductsComponent implements OnInit {
       title: 'Leche Extra Proteina',
       price: 1550,
       description: '1lt',
-      type: 'lacteos'
+      type: 'lácteos'
     },
     {
       id: '33',
@@ -283,7 +283,7 @@ export class ProductsComponent implements OnInit {
       title: 'Lechce Proteina Chocolate',
       price: 1450,
       description: '1lt',
-      type: 'lacteos'
+      type: 'lácteos'
     },
     {
       id: '34',
@@ -291,7 +291,7 @@ export class ProductsComponent implements OnInit {
       title: 'Yogurt Protein',
       price: 420,
       description: '140gr',
-      type: 'lacteos'
+      type: 'lácteos'
     }
 
   ];
@@ -307,7 +307,6 @@ export class ProductsComponent implements OnInit {
   setType(value: any) {
     this.productListFilter = [];
     this.type = value;
-    console.log(value);
     if(value === 'Todos'){
       this.productListFilter = this.productsList;
     } else {
@@ -316,7 +315,6 @@ export class ProductsComponent implements OnInit {
           this.productListFilter.push(element);
         }
       });
-      console.log(this.productListFilter);
     }
     }
 }
